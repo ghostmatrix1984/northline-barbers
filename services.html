@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#232521">
+  <meta name="description" content="Explore cuts, fades and beard services with clear example pricing at Northline Barbers, a fictional barbershop in Folkestone, Kent.">
+  <title>Services — Northline Barbers</title>
+  <link rel="stylesheet" href="style.css?v=services-layout-2">
+  <style>
+    @media (min-width: 75rem) {
+      .services-page .service-price-list {
+        padding-top: calc(clamp(46px, 3.7vw, 60px) - 24px);
+      }
+
+      .services-page .booking {
+        padding-block: clamp(60px, 5vw, 82px);
+      }
+    }
+  </style>
+  <script src="script.js" defer></script>
+</head>
+<body class="services-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Northline Barbers — home">
+        <span class="brand-name">Northline<span class="brand-dot" aria-hidden="true">.</span></span>
+        <span class="brand-detail">Barbers <span aria-hidden="true">/</span> Folkestone</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+        <span class="menu-label">Menu</span><span class="menu-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html" aria-current="page">Services</a>
+        <a href="barbers.html">Barbers</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a class="button button-dark nav-booking" href="contact.html#booking-info">Book an Appointment <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="services-hero container" aria-labelledby="services-hero-title">
+      <p class="eyebrow">Services</p>
+      <div class="services-hero-layout">
+        <h1 id="services-hero-title">A good cut,<br><em>done properly.</em></h1>
+        <div class="services-hero-aside">
+          <p>Know what you want, or need a steer? We’ll talk it through before we start. Here’s what you can book.</p>
+          <p class="services-location">Northline Barbers <span aria-hidden="true">·</span> Folkestone, Kent</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-price-list section container" id="price-list" aria-labelledby="price-list-title">
+      <div class="section-intro">
+        <p class="eyebrow">01 — In the chair</p>
+        <h2 id="price-list-title">The menu.<br><em>Nothing extra.</em></h2>
+        <p>Our prices are below. If you’re unsure what to choose, just ask.</p>
+      </div>
+      <div class="service-menu">
+        <div class="menu-heading"><span>Service</span><span>Price</span></div>
+        <article class="service-row"><span class="service-number" aria-hidden="true">01</span><div><h3>Classic Cut</h3><p>A familiar cut, done the way you like it.</p></div><p class="service-price">£26</p></article>
+        <article class="service-row"><span class="service-number" aria-hidden="true">02</span><div><h3>Skin Fade</h3><p>Faded down to skin with a clean blend.</p></div><p class="service-price">£30</p></article>
+        <article class="service-row"><span class="service-number" aria-hidden="true">03</span><div><h3>Beard Trim</h3><p>A tidy beard, kept at the length you like.</p></div><p class="service-price">£16</p></article>
+        <article class="service-row"><span class="service-number" aria-hidden="true">04</span><div><h3>Cut &amp; Beard</h3><p>A haircut and beard trim in one visit.</p></div><p class="service-price">£38</p></article>
+        <article class="service-row"><span class="service-number" aria-hidden="true">05</span><div><h3>Student Cut</h3><p>A proper cut at the student rate.</p></div><p class="service-price">£22</p></article>
+        <article class="service-row"><span class="service-number" aria-hidden="true">06</span><div><h3>Clipper Cut</h3><p>An even all-over cut with clippers.</p></div><p class="service-price">£18</p></article>
+        <article class="service-row"><span class="service-number" aria-hidden="true">07</span><div><h3>Longer Hair / Scissor Cut</h3><p>Scissor work that keeps the length you want.</p></div><p class="service-price">£32</p></article>
+        <article class="service-row"><span class="service-number" aria-hidden="true">08</span><div><h3>Restyle</h3><p>Extra time to talk through a bigger change.</p></div><p class="service-price"><span class="price-prefix">From </span>£35</p></article>
+        <p class="small-note">Fictional example prices for this demonstration website. Please check the price before any service.</p>
+      </div>
+    </section>
+
+    <section class="service-advice section" aria-labelledby="service-advice-title">
+      <div class="container service-advice-layout">
+        <div class="service-advice-copy">
+          <p class="eyebrow">02 — Good advice, first</p>
+          <h2 id="service-advice-title">Not sure what<br><em>to book?</em></h2>
+          <p>Tell us what you usually ask for, or show us a photo. We’ll work out what to book before we start.</p>
+          <a class="button button-cream" href="contact.html#booking-info">Book an Appointment <span aria-hidden="true">↗</span></a>
+        </div>
+        <ol class="service-advice-list">
+          <li><span aria-hidden="true">01 —</span><strong>We talk first</strong></li>
+          <li><span aria-hidden="true">02 —</span><strong>No rushed decisions</strong></li>
+          <li><span aria-hidden="true">03 —</span><strong>Clear price before we begin</strong></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="service-craft section container" aria-labelledby="service-craft-title">
+      <div class="section-intro">
+        <p class="eyebrow">03 — Care in every detail</p>
+        <h2 id="service-craft-title">The finishing<br><em>touches matter.</em></h2>
+        <p>A cut isn’t done when the clippers stop. We check how it sits, tidy the edges and give you a last look.</p>
+      </div>
+      <div class="service-craft-list" role="list">
+        <div class="service-craft-item" role="listitem"><span class="craft-index" aria-hidden="true">01</span><span>Consultation included</span></div>
+        <div class="service-craft-item" role="listitem"><span class="craft-index" aria-hidden="true">02</span><span>Wash available where appropriate</span></div>
+        <div class="service-craft-item" role="listitem"><span class="craft-index" aria-hidden="true">03</span><span>Styling and finishing</span></div>
+        <div class="service-craft-item" role="listitem"><span class="craft-index" aria-hidden="true">04</span><span>Product advice</span></div>
+        <div class="service-craft-item" role="listitem"><span class="craft-index" aria-hidden="true">05</span><span>Beard shaping</span></div>
+        <div class="service-craft-item" role="listitem"><span class="craft-index" aria-hidden="true">06</span><span>Neckline clean-up</span></div>
+      </div>
+    </section>
+
+    <section class="service-faq section" aria-labelledby="service-faq-title">
+      <div class="container service-faq-layout">
+        <div class="section-intro">
+          <p class="eyebrow">04 — Good to know</p>
+          <h2 id="service-faq-title">A few things<br><em>worth asking.</em></h2>
+          <p>A few practical things before you come in.</p>
+        </div>
+        <div class="service-faq-items">
+          <details class="service-faq-item"><summary><span>How long does a haircut take?</span><span class="faq-symbol" aria-hidden="true"></span></summary><p>Allow about 30–45 minutes for most cuts. Some services take a bit longer.</p></details>
+          <details class="service-faq-item"><summary><span>Do I need to know exactly what haircut I want?</span><span class="faq-symbol" aria-hidden="true"></span></summary><p>No. A photo helps, but we can talk it through when you get here.</p></details>
+          <details class="service-faq-item"><summary><span>Can I book a haircut and beard trim together?</span><span class="faq-symbol" aria-hidden="true"></span></summary><p>Yes. Book Cut &amp; Beard so there’s time for both.</p></details>
+          <details class="service-faq-item"><summary><span>Do you take walk-ins?</span><span class="faq-symbol" aria-hidden="true"></span></summary><p>Booking ahead is best. If we’ve got a gap on the day, we’ll fit you in.</p></details>
+          <details class="service-faq-item"><summary><span>What if I’m running late?</span><span class="faq-symbol" aria-hidden="true"></span></summary><p>Give us a ring as soon as you can. If there isn’t enough time left for your cut, we may need to rebook you.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking section" aria-labelledby="services-booking-title">
+      <div class="container booking-inner">
+        <p class="eyebrow">The chair is yours</p>
+        <h2 id="services-booking-title">Ready <em>when you are.</em></h2>
+        <p>Know what you need? Get in touch and we’ll sort out a time.</p>
+        <a class="button button-cream" href="contact.html#booking-info">Book an Appointment <span aria-hidden="true">↗</span></a>
+        <p class="booking-note">This is a demo. Booking is not yet available.<br>The button leads to our contact preview.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><a class="brand" href="index.html" aria-label="Northline Barbers — home"><span class="brand-name">Northline<span class="brand-dot" aria-hidden="true">.</span></span><span class="brand-detail">Barbers <span aria-hidden="true">/</span> Folkestone</span></a><p>Considered cuts. Coastal roots.</p><p class="social-placeholders">Instagram · Coming soon<br>Facebook · Coming soon</p></div>
+      <div><h2 class="footer-heading">Explore</h2><nav class="footer-nav" aria-label="Footer navigation"><a href="index.html">Home</a><a href="services.html" aria-current="page">Services</a><a href="barbers.html">Barbers</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a></nav></div>
+      <div><h2 class="footer-heading">Find us</h2><address>18 Northline Yard<br>Folkestone, Kent<br>CT20 1DE</address><p class="footer-phone">01632 960 218</p><span class="footer-demo-label">Fictional contact details</span></div>
+      <div><h2 class="footer-heading">In the shop</h2><dl class="hours footer-hours"><div><dt>Tue — Fri</dt><dd>09:00 — 18:00</dd></div><div><dt>Saturday</dt><dd>09:00 — 17:00</dd></div><div><dt>Sun &amp; Mon</dt><dd>Closed</dd></div></dl></div>
+    </div>
+    <div class="container footer-bottom"><p>© <span data-year>2026</span> Northline Barbers</p><p>A fictional demonstration website. No real business or bookings.</p><a href="#main">Back to top <span aria-hidden="true">↑</span></a></div>
+  </footer>
+  <script>
+    (() => {
+      const faqItems = document.querySelectorAll('.service-faq-item');
+      const collapseFaq = () => faqItems.forEach((item) => { item.open = false; });
+      collapseFaq();
+      window.addEventListener('pageshow', collapseFaq);
+    })();
+  </script>
+</body>
+</html>

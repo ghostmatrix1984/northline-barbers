@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#232521">
+  <meta name="description" content="Contact and opening hours for Northline Barbers, a fictional demonstration barbershop in Folkestone, Kent.">
+  <title>Contact — Northline Barbers</title>
+  <link rel="stylesheet" href="style.css?v=contact-page-1">
+  <script src="script.js" defer></script>
+</head>
+<body class="contact-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Northline Barbers — home">
+        <span class="brand-name">Northline<span class="brand-dot" aria-hidden="true">.</span></span>
+        <span class="brand-detail">Barbers <span aria-hidden="true">/</span> Folkestone</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+        <span class="menu-label">Menu</span><span class="menu-icon" aria-hidden="true"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="barbers.html">Barbers</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+        <a class="button button-dark nav-booking" href="index.html#booking">Book an Appointment <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="contact-intro container" aria-labelledby="contact-title">
+      <div class="contact-intro-copy">
+        <p class="eyebrow">Northline Barbers / Contact</p>
+        <h1 id="contact-title">Come in.<br><em>Take a seat.</em></h1>
+        <p>Want to book, ask about a cut or check when we’re open? Give us a ring or leave a note below.</p>
+      </div>
+      <aside class="contact-card" id="booking-info" tabindex="-1" aria-label="Northline Barbers contact details">
+        <div class="contact-card-top"><span>At the shop</span><span>N / B — Folkestone</span></div>
+        <p class="contact-card-name">Northline Barbers</p>
+        <address>18 Northline Yard<br>Folkestone, Kent<br>CT20 1DE</address>
+        <div class="contact-card-links">
+          <a href="tel:+441632960218">01632 960 218 <span aria-hidden="true">↗</span></a>
+          <a href="mailto:hello@northline.example">hello@northline.example <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="contact-demo-note">Northline Barbers is a fictional barbershop concept in Folkestone, Kent. These contact details and hours are examples; this demo does not accept bookings or payments.</p>
+      </aside>
+    </section>
+
+    <section class="contact-visit" aria-labelledby="contact-hours-title">
+      <div class="container contact-visit-layout">
+        <div class="contact-visit-copy">
+          <p class="eyebrow">01 — When to visit</p>
+          <h2 id="contact-hours-title">Drop by.<br><em>We’ll get you sorted.</em></h2>
+          <p>Book ahead if you can, especially if you have a particular barber in mind. Walk-ins are welcome when there’s room.</p>
+        </div>
+        <div class="contact-hours-panel">
+          <div class="contact-hours-heading"><span>Opening hours</span><span>Folkestone / Kent</span></div>
+          <dl class="contact-hours">
+            <div><dt>Monday</dt><dd>Closed</dd></div>
+            <div><dt>Tuesday — Friday</dt><dd>09:00–18:00</dd></div>
+            <div><dt>Saturday</dt><dd>09:00–17:00</dd></div>
+            <div><dt>Sunday</dt><dd>Closed</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-enquiry section" aria-labelledby="contact-enquiry-title">
+      <div class="container contact-enquiry-layout">
+        <div class="contact-enquiry-copy">
+          <p class="eyebrow">02 — Enquiries</p>
+          <h2 id="contact-enquiry-title">Ask away.<br><em>We’ll listen.</em></h2>
+          <p>Not sure what to book? Tell us what you’re after. You can add anything else we ought to know.</p>
+        </div>
+        <form class="contact-form" id="enquiry-form" method="post" action="https://formspree.io/f/xppwnoqq" aria-describedby="enquiry-note">
+          <div class="contact-form-row">
+            <div class="contact-field">
+              <label for="enquiry-name">Name <span aria-hidden="true">*</span></label>
+              <input id="enquiry-name" name="name" type="text" autocomplete="name" required>
+            </div>
+            <div class="contact-field">
+              <label for="enquiry-email">Email <span aria-hidden="true">*</span></label>
+              <input id="enquiry-email" name="email" type="email" autocomplete="email" required>
+            </div>
+          </div>
+          <div class="contact-field">
+            <label for="enquiry-phone">Phone</label>
+            <input id="enquiry-phone" name="phone" type="tel" autocomplete="tel">
+          </div>
+          <div class="contact-field">
+            <label for="enquiry-message">What can we help with? <span aria-hidden="true">*</span></label>
+            <textarea id="enquiry-message" name="message" rows="5" placeholder="Tell us what you’re looking for, when you’re thinking of visiting, or anything you’d like to ask." required></textarea>
+          </div>
+          <div class="contact-form-actions">
+            <button class="button button-dark" type="submit">Send enquiry <span aria-hidden="true">↗</span></button>
+            <p id="enquiry-note">Test enquiries only — Northline is a fictional shop.</p>
+          </div>
+          <p class="contact-form-status" id="enquiry-status" role="status" aria-live="polite" tabindex="-1" hidden></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact-location why section" aria-labelledby="contact-location-title">
+      <div class="container contact-location-layout">
+        <div class="contact-location-copy">
+          <p class="eyebrow">03 — Find the shop</p>
+          <h2 id="contact-location-title">Find us<br><em>in Folkestone.</em></h2>
+          <p>In town, not far from the seafront. We’ll have the chair ready when you get here.</p>
+          <address>Northline Barbers<br>18 Northline Yard<br>Folkestone, Kent<br>CT20 1DE</address>
+        </div>
+        <div class="contact-map" role="img" aria-label="Illustrative map preview placing Northline Barbers in Folkestone; not to scale.">
+          <span class="contact-map-coast"></span>
+          <span class="contact-map-road contact-map-road-one"></span>
+          <span class="contact-map-road contact-map-road-two"></span>
+          <span class="contact-map-road contact-map-road-three"></span>
+          <span class="contact-map-road contact-map-road-four"></span>
+          <span class="contact-map-top">Map preview</span>
+          <span class="contact-map-sea">The Channel</span>
+          <span class="contact-map-marker"><span aria-hidden="true"></span>Northline Barbers</span>
+          <span class="contact-map-bottom">Folkestone / Not to scale</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="booking section" aria-labelledby="contact-booking-title">
+      <div class="container booking-inner">
+        <p class="eyebrow">Get in touch</p>
+        <h2 id="contact-booking-title">Your chair.<br><em>When you’re ready.</em></h2>
+        <p>Have a question about a cut or a visit? Start with the form above.</p>
+        <a class="button button-cream" href="#enquiry-form">Send us a message <span aria-hidden="true">↑</span></a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand"><a class="brand" href="index.html" aria-label="Northline Barbers — home"><span class="brand-name">Northline<span class="brand-dot" aria-hidden="true">.</span></span><span class="brand-detail">Barbers <span aria-hidden="true">/</span> Folkestone</span></a><p>Considered cuts. Coastal roots.</p><p class="social-placeholders">Instagram · Coming soon<br>Facebook · Coming soon</p></div>
+      <div><h2 class="footer-heading">Explore</h2><nav class="footer-nav" aria-label="Footer navigation"><a href="index.html">Home</a><a href="services.html">Services</a><a href="barbers.html">Barbers</a><a href="gallery.html">Gallery</a><a href="contact.html" aria-current="page">Contact</a></nav></div>
+      <div><h2 class="footer-heading">Find us</h2><address>18 Northline Yard<br>Folkestone, Kent<br>CT20 1DE</address><p class="footer-phone">01632 960 218</p><span class="footer-demo-label">Fictional contact details</span></div>
+      <div><h2 class="footer-heading">In the shop</h2><dl class="hours footer-hours"><div><dt>Tue — Fri</dt><dd>09:00 — 18:00</dd></div><div><dt>Saturday</dt><dd>09:00 — 17:00</dd></div><div><dt>Sun &amp; Mon</dt><dd>Closed</dd></div></dl></div>
+    </div>
+    <div class="container footer-bottom"><p>© <span data-year>2026</span> Northline Barbers</p><p>A fictional demonstration website. No real business or bookings.</p><a href="#main">Back to top <span aria-hidden="true">↑</span></a></div>
+  </footer>
+  <script>
+    (() => {
+      const form = document.querySelector('#enquiry-form');
+      const status = document.querySelector('#enquiry-status');
+      const submitButton = form.querySelector('button[type="submit"]');
+      const buttonText = submitButton.firstChild.textContent;
+      let sending = false;
+
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        if (sending || !form.reportValidity()) return;
+
+        sending = true;
+        submitButton.disabled = true;
+        submitButton.firstChild.textContent = 'Sending… ';
+        form.setAttribute('aria-busy', 'true');
+        status.hidden = true;
+
+        try {
+          const response = await fetch(form.action, {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { Accept: 'application/json' }
+          });
+
+          if (response.ok) {
+            form.reset();
+            status.textContent = 'Thanks. Your enquiry has been sent.';
+          } else {
+            const result = await response.json().catch(() => null);
+            const errors = Array.isArray(result?.errors)
+              ? result.errors.map((error) => error.message).filter((message) => typeof message === 'string' && message.trim())
+              : [];
+            status.textContent = errors.join(' ') ||
+              (typeof result?.error === 'string' && result.error) ||
+              (typeof result?.message === 'string' && result.message) ||
+              'Sorry, we couldn’t send your enquiry. Please try again.';
+          }
+        } catch (error) {
+          status.textContent = 'Sorry, we couldn’t send your enquiry. Please check your connection and try again.';
+        } finally {
+          sending = false;
+          submitButton.disabled = false;
+          submitButton.firstChild.textContent = buttonText;
+          form.removeAttribute('aria-busy');
+          status.hidden = false;
+          status.focus();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
